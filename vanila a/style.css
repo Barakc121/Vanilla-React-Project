@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+
+}
+
+#navbar {
+    width: 100%;
+    background-color: rgb(219, 197, 168);
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0 25px;
+    
+}
+
+
+
+.homes{
+    background-color: rgb(219, 197, 168);
+}
+
+button{
+    color: aqua;
+        padding: 9px;
+        border-radius: 5px;
+
+    background-color: black;
+}
+
+button :hover{
+    background-color: aliceblue;
+}
+.footer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(219, 197, 168);
+    bottom: 0%;
+    font-size: 2.7vh;
+}
